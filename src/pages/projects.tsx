@@ -1,17 +1,8 @@
 import React, { useEffect, useState } from "react";
-import NavBar from "../../components/NavBar";
+import NavBar from "../components/NavBar";
 
 
-interface ProjectsProps{
-  id: string;
-  name: string;
-  description: string;
-  url: string;
-  created_at: string;
-
-}
-
-export default function Projects(props: ProjectsProps) {
+export default function Projects() {
   const [itemsApi, setItemsApi] = useState([])
 
   useEffect(() => {
@@ -61,4 +52,3 @@ export default function Projects(props: ProjectsProps) {
   )
 }
 
- Projects;
