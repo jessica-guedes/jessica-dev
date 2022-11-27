@@ -1,10 +1,15 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Foto from '../assets/foto.png'
 
 import NavBar from '../components/NavBar';
 import Stacks from '../components/Stacks';
 import Cards from '../components/Cards';
+
+import quizDexter from '../assets/quizDexter.png'
+import JessicaTech from '../assets/jessicatech.png'
+import NlwCopa from '../assets/nlw-copa.png'
 
 
 
@@ -48,19 +53,71 @@ function Home() {
 
       <div className='flex flex-col justify-center items-center'>
         <div className='flex gap-4'>
-          <Cards />
-          <Cards />
-          <Cards />
+          <Cards 
+          image={<Image alt="" src={JessicaTech} className="rounded-t-lg"/>} 
+          title='Jessica Tech'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+          />
+
+          <Cards 
+          image={<Image alt="" src={quizDexter} className="rounded-t-lg"/>} 
+          title='Quiz Dexter'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+
+
+          />
+
+          <Cards  
+          image={<Image alt="" src={NlwCopa} className="rounded-t-lg"/>} 
+          title='NLW Copa'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+
+
+          />
         </div>
+
         <div className='flex gap-4'>
-          <Cards />
-          <Cards />
-          <Cards />
+        <Cards 
+          image={<Image alt="" src={JessicaTech} className="rounded-t-lg"/>} 
+          title='Jessica Tech'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+
+
+          />
+
+          <Cards 
+          image={<Image alt="" src={quizDexter} className="rounded-t-lg"/>} 
+          title='Quiz Dexter'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+
+
+          />
+
+          <Cards  
+          image={<Image alt="" src={NlwCopa} className="rounded-t-lg"/>} 
+          title='NLW Copa'
+          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sint vitae magni laborum dolor debitis voluptas ipsa? Aut, itaque beatae similique culpa ad ex temporibus'
+          stack='Tech stack: HTML, JavaScript, SASS, React'
+          link= {<Link href={''} className="text-[10px] ">Live Preview</Link>}
+
+
+          />
+        </div>
         </div>
       </div>
     
       
-    </div>
+
 
 
     
