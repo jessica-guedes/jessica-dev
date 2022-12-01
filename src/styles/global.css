@@ -3,6 +3,12 @@
 @tailwind components;
 
 body {
+  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-
+  scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+  width: 12px; 
+}
+
