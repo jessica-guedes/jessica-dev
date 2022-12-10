@@ -1,5 +1,8 @@
-## meu Portfólio 
 
+
+## Projeto desenvolvido para estudo das tecnologias utilizadas
+ 
+ 
 ### Tecnologias Usadas
 
 - React
