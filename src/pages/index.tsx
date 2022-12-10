@@ -8,7 +8,6 @@ import Contact from '../components/Contact';
 import Cards from '../components/Cards';
 import Link from 'next/link';
 
-import quizDexter from '../assets/quizDexter.png'
 import JessicaTech from '../assets/jessicatech.png'
 import NlwCopa from '../assets/nlw-copa.png'
 import NlWEsports from '../assets/nlw-esports-ignite.png'
