@@ -7,16 +7,17 @@ interface Props {
   description: string;
   stack: string;
   url: JSX.Element;
+  code: JSX.Element;
 }
 
 export default function Cards(props: Props){
   return (
-    <div  className='w-[350px]'>
+    <div  className='w-[360px] '>
 
       <div className='px-4 py-8 mx-auto '>
           
 
-          <div className='bg-zinc-900 rounded-lg shadow-sm hover:scale-105'>
+          <div className='bg-zinc-900 rounded-lg shadow-sm hover:scale-105 h-[500px]' >
 
             <div className='w-full rounded-t-lg' >
                 {props.image}
@@ -26,11 +27,11 @@ export default function Cards(props: Props){
                 {props.title}
               </h2>
 
-              <p className='text-[10pt] text-slate-400 text-justify mb-4'>
+              <p className='text-[10pt] text-slate-400 text-justify mb-4 h-[100px]'>
                 {props.description}
               </p>
 
-              <p className='text-[10pt] text-slate-600'>
+              <p className='text-[10pt] text-slate-600 h-[80px]'>
                 {props.stack}
                 
               </p>
@@ -38,14 +39,13 @@ export default function Cards(props: Props){
               <div className='flex flex-row justify-between mt-4 text-slate-200'>
                 <div className='flex flex-row gap-1 items-center'>
                   <GoLink size={12}/>
-                  <Link href={''} className="text-[8pt] ">Demo</Link>
+                  {props.url}
                 </div>
 
                 
-                  <div className='flex flex-row gap-1 items-center'>
+                  <div className='flex flex-row gap-1 items-center '>
                     <GoMarkGithub size={12}/>
-                    <Link href={''} className="text-[8pt]">
-                    Código</Link>
+                    {props.code}
                   </div>
                 
               </div>
