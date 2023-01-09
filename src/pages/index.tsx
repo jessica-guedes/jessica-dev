@@ -6,7 +6,6 @@ import NavBar from '../components/NavBar';
 import Stacks from '../components/Stacks';
 import Contact from '../components/Contact';
 import Cards from '../components/Cards';
-import Link from 'next/link';
 
 import JessicaTech from '../assets/jessicatech.png'
 import NlwCopa from '../assets/nlw-copa.png'
@@ -14,6 +13,7 @@ import NlWEsports from '../assets/nlw-esports-ignite.png'
 import NlWEsportsReact from '../assets/nlw-esports-react.png'
 import ExplorerLab from '../assets/project-explorer-lab.png'
 import NftsRocket from '../assets/nfts-rocket.png'
+import DevLinks from '../assets/devlinks.png'
 
 
 function Home() {
@@ -67,12 +67,12 @@ function Home() {
             code= {<a href="https://github.com/jessica-guedes/jessicatech"  className="text-[9pt]" rel="noreferrer" target={'_blank'}>Código</a>}
             />
             <Cards
-            image={<Image alt="" src={NftsRocket} className="rounded-t-lg"/>}
-            title='NFTs Rocket'
-            description='Uma Landing Page sobre NFTS'
-            stack='Tech stack: HTML, CSS, JavaScripte e Scroll Reveal Js'
-            url= {<a href="https://jessica-guedes.github.io/rocket-nfts/"  className="text-[9pt]" rel="noreferrer" target={'_blank'}>Demo</a>}
-            code= {<a href="https://github.com/jessica-guedes/rocket-nfts"  className="text-[9pt]" rel="noreferrer" target={'_blank'}>Código</a>}
+            image={<Image alt="" src={DevLinks} className="rounded-t-lg"/>}
+            title='DevLinks'
+            description='O DevLinks é um agregador de links para usar como cartão de visitas online.'
+            stack='Tech stack: HTML, CSS, JavaScript'
+            url= {<a href="https://jessica-guedes.github.io/DevLinks/"  className="text-[9pt]" rel="noreferrer" target={'_blank'}>Demo</a>}
+            code= {<a href="https://github.com/jessica-guedes/DevLinks"  className="text-[9pt]" rel="noreferrer" target={'_blank'}>Código</a>}
 
 
             />
