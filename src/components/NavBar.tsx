@@ -21,7 +21,7 @@ export default function NavBar(){
           </a>
 
 
-          <div onClick={()=> setOpen(!open)} className="text-2xl text-white">
+          <div onClick={()=> setOpen(!open)} className="text-2xl text-white md:hidden">
           {open ? <VscChromeClose/> : <VscMenu /> }
           </div>
 
