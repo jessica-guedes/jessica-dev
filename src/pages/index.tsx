@@ -12,7 +12,6 @@ import NlwCopa from '../assets/nlw-copa.png'
 import NlWEsports from '../assets/nlw-esports-ignite.png'
 import NlWEsportsReact from '../assets/nlw-esports-react.png'
 import ExplorerLab from '../assets/project-explorer-lab.png'
-import NftsRocket from '../assets/nfts-rocket.png'
 import DevLinks from '../assets/devlinks.png'
 
 
