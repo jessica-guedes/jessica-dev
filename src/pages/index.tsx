@@ -50,13 +50,13 @@ function Home() {
       <Stacks />
 
 
-
       <div id="projects" className='bg-gray-900'>
         <div className='text-center mt-[100px]'>
             <h2 className='text-white text-2xl font-bold mb-6'>Meus Projetos</h2>
             <p className='text-gray-400 mb-24' >O que construí até agora.</p>
         </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col justify-center items-center '>
+
           <div className='flex gap-4 md:flex-row sm:flex flex-col'>
             <Cards
             image={<Image alt="" src={JessicaTech} className="rounded-t-lg"/>}

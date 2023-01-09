@@ -11,9 +11,9 @@ interface Props {
 
 export default function Cards(props: Props){
   return (
-    <div  className='w-[350px] h-[500px]'>
+    <div  className='w-[350px]'>
 
-      <div className='px-4 py-8 mx-auto  '>
+      <div className='px-4 py-8 mx-auto '>
           
 
           <div className='bg-zinc-900 rounded-lg shadow-sm hover:scale-105'>

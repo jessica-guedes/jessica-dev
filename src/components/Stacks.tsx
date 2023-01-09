@@ -8,8 +8,7 @@ import TailwindIcon from '../assets/tailwind.svg'
 import GitIcon from '../assets/git.svg'
 import VsCodeIcon from '../assets/vscode.svg'
 import GitHubIcon from '../assets/github.png'
-import SpotifyIcon from '../assets/spotify.svg'
-import FigmaIcon from '../assets/figma.svg'
+
 
 
 export default function Stacks(){
