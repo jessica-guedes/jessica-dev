@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { GoMarkGithub, GoLink} from "react-icons/go";
 
 interface Props {
