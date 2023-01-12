@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import Logo from "../assets/logo.png"
 import { VscMenu, VscChromeClose } from "react-icons/vsc";
@@ -26,18 +25,19 @@ export default function NavBar(){
           </div>
 
           <div className={`w-full md:block md:w-auto ${open ? 'text-center mb-[500px]' : 'hidden' }`} >
+            
             <ul className="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-900">
               <li>
-            <Link href="/" className="block py-8 pl-3 pr-4 text-gray-400 md:p-0 md:hover:text-white md:hover:bg-transparent sm:hover:text-white sm:hover:bg-transparent">Home</Link>
+            <a href="./" className="block py-8 pl-3 pr-4 text-gray-400 md:p-0 md:hover:text-white md:hover:bg-transparent sm:hover:text-white sm:hover:bg-transparent" onClick={() => setOpen(false)}>Home</a>
               </li>
               <li>
-                <Link href="#stacks" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent">Stacks</Link>
+                <a href="#stacks" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent" onClick={() => setOpen(false)}>Stacks</a>
               </li>
               <li>
-                <Link href="#projects" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent">Projetos</Link>
+                <a href="#projects" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent" onClick={() => setOpen(false)}>Projetos</a>
               </li>
               <li>
-                <Link href="#contact" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent ">Contato</Link>
+                <a href="#contact" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent " onClick={() => setOpen(false)}>Contato</a>
               </li>
             </ul>
           </div>

@@ -1,0 +1,22 @@
+// como funcionar o useState em react?
+...
+const [count, setCounter] = useState(0);
+const [moreStuff, setMoreStuff] = useState(...);
+...
+
+const setCount = () => {
+    setCounter(count + 1);
+    setMoreStuff(...);
+    ...
+};
+
+
+<button onClick={setCount}>
+    Click me
+</button>
+
+
+const [count, setCounter] = useState(0);
+
+
+

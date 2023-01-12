@@ -47,20 +47,20 @@ export default function Contact(){
             <div className='flex justify-between items-center border-t-[1px] border-gray-700'>
               <div className="hidden md:block md:mt-14"  id="navbar-default" >
 
-                  <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                  <Link href="/"className="block py-2 pl-3 pr-4 text-gray-700  rounded md:bg-transparent md:p-0 dark:text-white " >Home</Link>
-                    </li>
-                    <li>
-                      <Link href="#stacks" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Stacks</Link>
-                    </li>
-                    <li>
-                      <Link href="#projects" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projetos</Link>
-                    </li>
-                    <li>
-                      <Link href="#contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contatos</Link>
-                    </li>
-                  </ul>
+              <ul className="flex flex-col p-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-gray-900">
+                <li>
+                  <Link href="/" className="block py-8 pl-3 pr-4 text-gray-400 md:p-0 md:hover:text-white md:hover:bg-transparent sm:hover:text-white sm:hover:bg-transparent">Home</Link>
+                </li>
+                <li>
+                  <Link href="#stacks" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent">Stacks</Link>
+                </li>
+                <li>
+                  <Link href="#projects" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent">Projetos</Link>
+                </li>
+                <li>
+                  <Link href="#contact" className="block py-8 pl-3 pr-4 md:border-0 md:p-0 text-gray-400 md:hover:text-white md:hover:bg-transparent ">Contato</Link>
+                </li>
+              </ul>
               </div>
 
               <div className='text-gray-700 text-sm md:mt-14 md:mx-0 sm:mx-auto sm:mt-14'>

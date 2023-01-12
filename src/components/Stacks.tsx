@@ -65,7 +65,6 @@ export default function Stacks(){
               src={TailwindIcon}
               alt="Icone TailwindCss"
               />
-              
             </div>
           </div>
     </div>
